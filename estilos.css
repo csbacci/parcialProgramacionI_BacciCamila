@@ -1,0 +1,84 @@
+.custom-btn {
+    background-color: #ffc0cb; /* Color de fondo rosa claro */
+    border-radius: 10px; /* Bordes redondeados */
+    color: white; /* Texto en color blanco */
+    padding: 10px 70px; /* Espaciado interno para hacer los botones más anchos */
+    margin-right: 10px;
+    
+}
+
+
+.custom-btn:hover {
+    background-color: #c987a8; /* Cambiar el color de fondo al pasar el mouse */
+}
+
+.title-container {
+    background-color: #ffc0cb; /* Color de fondo rosa claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espaciado inferior para separar de los botones */
+    color: white;
+}
+
+
+body {
+    background-color: #ffe4b5; /* Color de fondo naranja claro */
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+}
+
+.separados {
+    margin-top: 10px;
+    
+}
+
+.fondo {
+    border: 4px #ffffff solid;
+   padding: 0;
+   margin: 1rem;
+   border-radius: 10px; 
+   background-color: #ffffff;
+}
+
+.bajar {
+    margin-bottom: 1rem;
+}
+
+
+.linea {
+    border-bottom: 2px solid #faa4b2; /* Cambia #000 al color que desees */
+    width: 50%; /* Ajusta el ancho de la línea según tus necesidades */
+    margin: auto;
+    padding-top: 0.5 rem;
+}
+
+.clases {
+    background-color: #faa4b2; /* Color de fondo rosa claro */
+    color: white;
+   border-radius: 10px; 
+   padding: 1rem;
+   
+}
+.tipos{
+    color: white;
+}
+
+.color {
+    color: #ffe4b5;
+}
+
+.fondo2 {
+    background-color: #ffc0cb; 
+    width: 100%;
+    height: 6rem;
+    margin-top: 1rem;
+}
+
+.imagen {
+width: 50%;
+height: 50%;
+}

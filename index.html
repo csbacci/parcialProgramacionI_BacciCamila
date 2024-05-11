@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Parcial 1 / camila bacci</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="estilos.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="container mt-5">
+        <h1 class="text-center">
+          Primer parcial de Programación 1 / Camila Bacci
+        </h1>
+        <p class="text-center subtitle">
+          Encuentra tus canciones favoritas en un solo lugar.
+        </p>
+      </div>
+    </header>
+
+    <main class="container mt-5">
+      <section>
+        <div class="text-center">
+          <button onclick="cargarDisco()" class="btn custom-btn">
+            Cargar un nuevo disco
+          </button>
+          <button onclick="mostrar()" class="btn custom-btn">
+            Mostrar discos cargados
+          </button>
+          <button onclick="mostrarTotalDiscosCargados()" class="btn custom-btn">
+            Total de discos cargados
+          </button>
+        </div>
+      </section>
+      <section>
+        <div>
+          <button
+            onclick="resetear()"
+            class="btn custom-btn btn-block separados"
+          >
+            Resetear
+          </button>
+          <button
+            onclick="codigoNumerico() "
+            class="btn custom-btn btn-block bajar" data-toggle="modal" data-target="#exampleModal"
+          >
+            Buscar
+          </button>
+        </div>
+      </section>
+      <section>
+        <div id="info-discos"></div>
+      </section>
+      <section>
+        <div id="info-codigo"></div>
+      </section>
+    </main>
+    <footer class="fondo2"></footer>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
